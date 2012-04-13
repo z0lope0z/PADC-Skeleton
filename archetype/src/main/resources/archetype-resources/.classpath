@@ -1,0 +1,22 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="target/unpack/apklibs/com.actionbarsherlock_library_apklib_4.0.1/src"/>
+  <classpathentry kind="src" path="target/generated-sources/r" including="**/*.java"/>
+  <classpathentry kind="src" path="target/generated-sources/aidl" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/android/android/4.0_r3/android-4.0_r3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/de/akquinet/android/androlog/androlog/1.0.5/androlog-1.0.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/android/support-v4/r6/support-v4-r6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/rtyley/roboguice-sherlock/1.1/roboguice-sherlock-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/roboguice/roboguice/2.0b4/roboguice-2.0b4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/guice/3.0/guice-3.0-no_aop.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/j256/ormlite/ormlite-android/4.38/ormlite-android-4.38.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/j256/ormlite/ormlite-core/4.38/ormlite-core-4.38.jar"/>
+</classpath>
