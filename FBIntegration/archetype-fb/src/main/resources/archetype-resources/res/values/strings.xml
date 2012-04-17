@@ -1,0 +1,10 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello ${artifactId}!</string>
+    <string name="app_name">${artifactId}</string>
+    <string name="fb_picture">Facebook profile picture</string>
+    <string name="app_id">222432764524817</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello facebook-skeleton!</string>
+    <string name="app_name">facebook-skeleton</string>
+    <string name="fb_picture">Facebook profile picture</string>
+    <string name="app_id">222432764524817</string>
+</resources>
