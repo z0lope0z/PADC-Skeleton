@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, C2dmTestActivity!</string>
+    <string name="app_name">C2dmTest</string>
+    <string name="email">lopegwapo@gmail.com</string>
+	<string name="password">chupijay</string>
+</resources>
