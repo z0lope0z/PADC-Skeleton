@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="padc-parent"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet encoding="UTF-8">
+      <directory>.settings</directory>
+      <includes>
+        <include>**/*.prefs</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>.project</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>cache</include>
+        <include>cache.lock</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <modules>
+    <module id="padc-skeleton" dir="padc-skeleton" name="padc-skeleton">
+      <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+          <directory>src/main/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+          <directory>src/test/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>res/layout</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>androlog</directory>
+          <includes>
+            <include>**/*.properties</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>res/values</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-ldpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>tmp</directory>
+          <includes>
+            <include>**/*.jar</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-hdpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-mdpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>.settings</directory>
+          <includes>
+            <include>**/*.prefs</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>project.properties</include>
+            <include>AndroidManifest.xml</include>
+            <include>.classpath</include>
+            <include>.project</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>.pom.xml.swp</include>
+            <include>cache</include>
+            <include>cache.lock</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+    </module>
+    <module id="padc-skeleton-it" dir="padc-skeleton-it" name="padc-skeleton-it">
+      <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+          <directory>src/main/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>res/layout</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>res/values</directory>
+          <includes>
+            <include>**/*.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-ldpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-hdpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>res/drawable-mdpi</directory>
+          <includes>
+            <include>**/*.png</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>.settings</directory>
+          <includes>
+            <include>**/*.prefs</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>project.properties</include>
+            <include>AndroidManifest.xml</include>
+            <include>.classpath</include>
+            <include>default.properties</include>
+            <include>.project</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>cache</include>
+            <include>cache.lock</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+    </module>
+  </modules>
+</archetype-descriptor>
